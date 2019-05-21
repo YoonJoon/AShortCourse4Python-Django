@@ -1,4 +1,4 @@
-# Lecture4Python&Django
+# A Short Course for Python and Django
 6 lectures, each lecture for about 3 hours 
 
 이 repository에는 KAIST 대학정보화사럽에 참여하는 대학정보화사업팀과 참여업체 개발자들을 위하여 Python Programming Language와 Python 기반의 Django Web Framework에 대한 기초 지식을 전달하기 위한 것입니다.
