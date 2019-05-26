@@ -19,7 +19,7 @@ It consists of 6 lectures, each lecture for about 3 hours
 6.	[Function](function.pdf)
 7.	[Module](module.pdf)
 8.	[Package](package.pdf)
-9.	[Exception Handling](exceptionHandlig.pdf)
+9.	[Exception Handling](exceptionHandling.pdf)
 
 ---
 
