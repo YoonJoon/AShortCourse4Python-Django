@@ -11,7 +11,7 @@ May, 2019
 
 <br>
 
-![](Pics/calc.png)
+![](../../Pics/calc.png)
 
 ---
 
