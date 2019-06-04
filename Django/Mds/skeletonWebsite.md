@@ -332,7 +332,9 @@ urlpatterns = [
 
 <br>
 
-At this point we have a complete skeleton project. The website doesn't actually do anything yet, but it's worth running it to make sure that none of our changes have broken anything. 
+At this point we have a complete skeleton project. 
+
+The website doesn't actually do anything yet, but it's worth running it to make sure that none of our changes have broken anything. 
 
 ---
 
@@ -340,10 +342,14 @@ At this point we have a complete skeleton project. The website doesn't actually 
 
 As we change our model definitions, Django tracks the changes and can create database migration scripts (in <b>/locallibrary/catalog/migrations/</b>) to automatically migrate the underlying data structure in the database to match the model.
 
+<font size="6">
+  
 ```bash
 py -3 manage.py makemigrations
 py -3 manage.py migrate
 ```
+
+</font>
 
 The <code>makemigrations</code> command creates the migrations for all applications installed in your project. The <code>migrate</code> command actually applies the migrations to your database.
 
@@ -352,6 +358,8 @@ The <code>makemigrations</code> command creates the migrations for all applicati
 #### Running the website
 
 Run the development web server by calling the runserver command in the same directory as <b>manage.py</b>:
+
+<font size="6">
 
 ```python
 python3 manage.py runserver
@@ -365,11 +373,13 @@ python3 manage.py runserver
  Quit the server with CTRL-BREAK.
 ```
 
+</font>
+
 ---
 
 Once the server is running you can view the site by navigating to http://127.0.0.1:8000/ in your local web browser.
 
-![](https://mdn.mozillademos.org/files/15729/django_404_debug_page.png)
+<img src="../../Pics/skeleton01.png" width="800" height="500" />
 
 ---
 
